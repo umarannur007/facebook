@@ -1,0 +1,109 @@
+/* 
+    Primary color: #1877f2
+
+    Grey Color: #898F9C
+
+    background color: #f0f2f5;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    font-weight: 400;
+}
+.facebook{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    height: 100vh;
+}
+.facebook-content{
+    width: 60%;
+}
+form{
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+}
+.logo{
+    font-size: 50px;
+    color: #1877f2;
+}
+.facebook-content p{
+    font-size: 20px;
+    width: 80%;
+}
+form input{
+    padding: 14px 16px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 17px;
+}
+form input:focus{
+    border-color: #1877f2;
+    outline: none;
+}
+form .login{
+    padding: 14px 16px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form a {
+    text-align: center;
+    margin: 25px 0;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+
+hr{
+    margin-bottom: 25px;
+    background-color: red;
+}
+.create-account{
+    padding: 14px 16px;
+    background-color: #03ad06;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.create-account:hover{
+    background-color: #02a105;
+}
+.form-text{
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+.form-text a{
+    color: rgb(40, 40, 40);
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
